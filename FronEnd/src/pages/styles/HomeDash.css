@@ -1,0 +1,22 @@
+.dashboard-wrapper {
+    display: flex; /* Usa Flexbox */
+    width: 100%;
+    min-height: 100vh; /* Altura mínima para llenar la pantalla */
+}
+
+/* Estilos para Target-Card */
+.Target-Card {
+    background-color: #201f1f;
+    color: white;
+    padding: 16px;
+    flex-grow: 1; /* Ocupa el espacio restante */
+    overflow-y: auto; /* Permite desplazamiento vertical si es necesario */
+    margin-top: 105px; /* Ajusta si es necesario */
+    border-radius: 8px; /* Opcional, para bordes redondeados */
+}
+
+.dashboard-img {
+    width: 100%; /* Asegúrate de que la imagen no sobrepase el ancho del contenedor */
+    max-width: 600px; /* O un valor que se ajuste a tu diseño */
+    border-radius: 8px;
+}

@@ -1,0 +1,189 @@
+.page-layout {
+  position: relative;
+}
+
+.hero-section {
+  position: relative;
+  color: white;
+  padding-top: 105px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.title-and-button-container {
+  position: relative;
+  z-index: 2;
+}
+
+.user-info-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 3;
+}
+
+.Iss-home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.section-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.iss-info-button {
+  background-color: #ff4500;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.iss-info-button:hover {
+  background-color: #e03e10;
+}
+
+.iss-info {
+  display: none;
+  background-color: rgba(211, 211, 211, 0.5);
+  border-radius: 15px;
+  padding: 20px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.iss-info.show {
+  display: block;
+}
+
+.profile-card {
+  background-color: #fff;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-100%);
+  display: none;
+}
+
+.profile-card.show {
+  display: block;
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.show-profile-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.show-profile-button:hover {
+  background-color: #45a049;
+}
+
+.google-login-button {
+  background-color: #4285F4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 105px;
+  transition: background-color 0.3s;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.google-login-button:hover {
+  background-color: #357ae8;
+}
+
+.star-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 2;
+  position: relative;
+  margin-top: 600px;
+}
+
+.star-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.star-image {
+  width: 40%;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.star-info {
+  width: 60%;
+}
+
+.star-info h2 {
+  color: #FFD700;
+  margin-bottom: 10px;
+}
+
+.star-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.star-info li {
+  margin-bottom: 10px;
+}
+
+.star-info strong {
+  color: #FFD700;
+}

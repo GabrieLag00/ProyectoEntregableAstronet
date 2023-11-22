@@ -1,0 +1,26 @@
+/* DashboardPage.css o un archivo CSS global */
+
+.sidebar {
+    width: 200px;
+    min-height: 100vh;
+    background-color: #2b2b2b;
+    padding: 20px;
+    margin-top: 105px
+  }
+  
+  .sidebar-link {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-link:hover,
+  .sidebar-link.active {
+    background-color: #3498db;
+  }
+ 
+  
